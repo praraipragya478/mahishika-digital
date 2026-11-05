@@ -1,0 +1,17 @@
+:root {
+  --color-ink: #172018;
+  --color-body: #515a52;
+  --color-muted: #f2f4ef;
+  --color-surface: #ffffff;
+  --color-accent: #b9ed78;
+  --color-accent-dark: #38551e;
+  --color-border: #dce2d8;
+  --color-focus: #245cce;
+  --font-body: Arial, Helvetica, sans-serif;
+  --container-width: 1200px;
+  --header-height: 78px;
+  --section-space: 96px;
+  --radius-card: 8px;
+  --transition-fast: 160ms ease;
+  --transition-normal: 240ms ease;
+}

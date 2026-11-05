@@ -1,0 +1,59 @@
+.has-mega  {
+     position:  static;
+ }
+
+.mega-menu  {
+     position:  absolute;
+     top:  100%;
+     left:  0;
+     display:  grid;
+     grid-template-columns:  minmax(240px, .8fr) minmax(0, 1.2fr);
+     gap:  60px;
+     width:  100%;
+     padding:  42px max(calc((100% - var(--container-width))/2),  28px);
+     border-top:  1px solid var(--color-border);
+     border-bottom:  1px solid var(--color-border);
+     background:  #fff;
+     box-shadow:  0 18px 35px rgba(0, 0, 0, .08);
+ }
+
+.mega-menu[hidden]  {
+     display:  none;
+ }
+
+.mega-intro h2  {
+     max-width:  370px;
+     margin:  0;
+     font-size:  30px;
+     line-height:  1.2;
+     letter-spacing:  -1px;
+ }
+
+.mega-intro p  {
+     max-width:  360px;
+     margin:  14px 0 0;
+     color:  var(--color-body);
+     font-size:  14px;
+ }
+
+.mega-links  {
+     display:  grid;
+     grid-template-columns:  repeat(2, minmax(0, 1fr));
+     column-gap:  32px;
+ }
+
+.mega-links a  {
+     display:  flex;
+     align-items:  center;
+     justify-content:  space-between;
+     gap:  12px;
+     min-height:  54px;
+     border-bottom:  1px solid var(--color-border);
+     font-size:  14px;
+     font-weight:  700;
+ }
+
+.mega-links a:hover  {
+     color:  var(--color-accent-dark);
+ }
+
